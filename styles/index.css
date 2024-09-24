@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(99, 85, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: 4px solid rgb(22, 5, 5); 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    flex-grow: 1; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.contact-btn, .resume, .info {
+    background-color: white;
+    color: #ffffff;
+    border: solid;
+    padding: 10px 10px;
+    margin: 0 10px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-btn:hover, .resume:hover, .info:hover {
+    background-color: #5dd4ff;
+    color: rgb(197, 178, 178);
+    transform: scale(1.1); 
+}
+
+main {
+    background-color: #f1f1f1;
+    padding: 20px;
+    min-height: 400px;
+    background-image: url(https://w.wallhaven.cc/full/vq/wallhaven-vq6dll.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.about-me {
+    float: left; 
+    background-color: rgba(255, 255, 255, 0.818);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; 
+    border: 3px solid black;
+}
+
+.myproject {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 520px;
+    border: 3px solid black;
+}
+
+.myproject h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1E90FF;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1E90FF;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content-wrapper {
+    background-color: #839B97;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    max-width: 400px;
+    margin-left: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 5px;
+}
+
+.button-group button {
+    background-color: #34626C;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+}
+
+.button-group button:hover {
+    background-color: #02e6ea;
+    transform: scale(1.1);
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+}
+
+.profile-table td {
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black,
+                 1px -1px 0px black, -1px 1px 0px black;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.profile-table .label {
+    font-weight: bold;
+    width: 30%;
+}
+
+.profile-table .value {
+    width: 70%;
+}
+
+.profile-picture img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-table ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: rgb(99, 85, 255);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border: 3px solid black;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #00aced; 
+}
+
+.education {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 360px;
+    border: 3px solid black; 
+    margin-left: -22px;
+}
+
+.education h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1E90FF;
+    text-align: center;
+}
+
+.education p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*
+.fade-in {
+    opacity: 0;  
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease, transform 0.5s ease;  
+}
+
+.fade-in.visible {
+    opacity: 1;  
+    transform: translateY(0);  
+}
+
