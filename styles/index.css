@@ -240,7 +240,7 @@ footer .social-icons a:hover {
 @media (max-width: 768px) {
     
     .main {
-        height: 800vw;
+        height: 500vw;
     }
 
     .about-me, .myproject, .education, .content-wrapper {
@@ -257,12 +257,10 @@ footer .social-icons a:hover {
         margin-right: 0;
     }
    
-    .education {
+    .profile-table, .education {
         width: 100%;
         clear: both; 
-        margin: 20px 0;
-        margin-top: 100px; 
-        height: 400px;
+        margin: 20px 0; 
     }
 
     .content-wrapper {
@@ -323,73 +321,7 @@ footer .social-icons a:hover {
     }
 }
 
-.main {
-    height: 800vw;
-}
-
-.about-me, .myproject, .education, .content-wrapper {
-    width: 100%;           
-    margin: 20px 0;        
-    padding: 10px;          
-    box-sizing: border-box; 
-    float: none;
-    box-sizing: border-box ;
-    clear: both;
-}
-
-.myproject {
-    height: 300px;
-}
-
-.about-me, .myproject {
-    margin-right: 0;
-}
-
-.education {
-    width: 100%;
-    clear: both; 
-    margin: 20px 0;
-    margin-top: 100px; 
-    height: 450px;
-}
-
-.content-wrapper {
-    margin-top: 700px;
-    clear: both;
-    float: none;
-}
-
-header {
-    flex-direction: column;   
-    align-items: center;      
-}
-
-.title {
-    margin-bottom: 10px;      
-    font-size: 20px;         
-   }
-
-
-img {
-    max-width: 100%;          
-    height: auto;
-}
-
-
-.profile-table {
-    width: 100%;             
-}
-
-
-footer {
-    padding: 10px;
-}
-
-
-.contact-btn, .resume, .info {
-    padding: 8px;
-    font-size: 14px;
-}
+    
 /*
 .fade-in {
     opacity: 0;  
